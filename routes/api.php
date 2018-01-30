@@ -26,3 +26,5 @@ Route::post('test', function (Request $request){
 
     return "hola mundo";
 });
+
+Route::resource('bodegas', 'ResourceControllers\BodegaController');
